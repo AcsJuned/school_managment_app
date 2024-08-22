@@ -17,7 +17,7 @@ const HeroSection = () => {
             />
           </div>
 
-          {/* Right Side: Text and Carousel */}
+          
           <div className="col-md-6 hero-text">
             <h1 className="he">Welcome to
             <span className="he3">School Management Syestem</span>

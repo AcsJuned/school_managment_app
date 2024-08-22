@@ -1,27 +1,37 @@
 .dashboardsidebar {
   width: 240px;
-  background-image: linear-gradient(90deg, rgb(102, 52, 230) 0%, rgb(189, 107, 223) 100%);
+  background-image: linear-gradient(
+    90deg,
+    rgb(102, 52, 230) 0%,
+    rgb(189, 107, 223) 100%
+  );
   color: #ffffff;
   position: relative;
- 
+
   top: 0;
   left: 0;
   transition: transform 0.3s ease;
   z-index: 1000;
   height: auto;
   min-height: 87vh;
-  
-  font-family: 'Poppins', sans-serif;
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-  
+
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.menu-item {
+  display: flex;
+  align-items: center;
 }
 
+.icons {
+  margin-right: 15px;
+}
+.arrowicons {
+  right: 0;
+}
 
 .dashboardsidebar-header {
   padding: 15px;
@@ -29,13 +39,15 @@
   font-size: 1rem;
   font-weight: bold;
   font-family: "Poppins", system-ui;
-  
 }
 
 .dashboardsidebar-content {
   padding: 15px;
   flex-grow: 1;
   font-family: "Poppins", system-ui;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .dashboardsidebar-content ul {
@@ -47,11 +59,9 @@
 .dashboardsidebar-content ul li {
   margin: 15px 0;
   /* border-bottom: #ce1313 1px solid; */
-
 }
 
 .dashboardsidebar-content ul li a {
-  
   color: #ffffff;
   text-decoration: none;
   font-size: 1.2rem;
@@ -62,13 +72,17 @@
   color: #11007e;
 }
 .dashboardsidebar-content ul li::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, rgb(102, 52, 230) 0%, rgb(189, 107, 223) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(102, 52, 230) 0%,
+    rgb(189, 107, 223) 100%
+  );
   transition: width 0.3s ease;
 }
 
@@ -103,4 +117,12 @@
   .dashboardsidebar-content ul li a {
     font-size: 1rem;
   }
+}
+
+.submenu {
+  padding-left: 1rem;
+}
+
+.submenu li {
+  margin-bottom: 0.5rem;
 }

@@ -1,10 +1,15 @@
 .mainc {
-  padding-top: 300px;
+  /* padding-top: 300px; */
+  font-family: 'Poppins', sans-serif !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  padding-top: 5rem;
+     
 }
 
 .feature-area {
   padding-bottom: 100px;
-  margin-top: -250px;
+  /* margin-top: -250px; */
 }
 
 .feature-title {
@@ -27,6 +32,7 @@
   max-width: 580px;
   margin: 0 auto;
 }
+
 
 .feature-box-one {
   background-color: #fff;

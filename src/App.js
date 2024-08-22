@@ -6,6 +6,7 @@ import HeroSection from "./Components/HeroSection/HeroSection";
 import FeatureSection from "./Components/FeatureSection/FeatureSection";
 import LoginForm from "./Components/LoginForm/LoginForm.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./Components/Footer/Footer.jsx";
 
 function App() {
   const current_theme = localStorage.getItem("current_theme");
@@ -37,6 +38,7 @@ function App() {
               <>
                 <HeroSection />
                 <FeatureSection />
+                <Footer/>
                 {/* <LoginForm/> */}
               </>
             }

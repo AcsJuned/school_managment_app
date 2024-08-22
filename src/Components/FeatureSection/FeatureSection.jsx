@@ -70,8 +70,8 @@ const FeatureSection = () => {
   };
 
   return (
-    <section className="feature-area mainc" id="role">
-      <div className="container">
+    <section className="feature-area mainc mt-0" id="role">
+      <div className="container fc">
         <div className="row">
           <div className="col-lg-12">
             <div className="feature-title">
