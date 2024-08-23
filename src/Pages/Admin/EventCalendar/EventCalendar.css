@@ -1,0 +1,44 @@
+.react-calendar {
+    width: 100%;
+    background-color: #ffe6e6; 
+    border: 1px solid #f5c6cb; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif; /* Set font family for consistency */
+}
+
+.react-calendar__tile {
+    background: none;
+    border: none;
+    color: #333; /* Darker text color for contrast */
+    border-radius: 6px; /* Rounded corners for calendar tiles */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.react-calendar__tile--now {
+    background: #ffcccc; /* Slightly darker pink for the current date */
+    color: #000; /* Black text for readability */
+}
+
+.react-calendar__tile--active {
+    background: #f78fb3; /* Active date background color */
+    color: #fff; /* White text for active dates */
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+    background-color: #ffb6c1; /* Light pink hover effect */
+    color: #000; /* Black text color on hover */
+}
+
+.react-calendar__navigation button {
+    color: #000; /* Black color for navigation arrows */
+    background: none;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.react-calendar__navigation button:hover {
+    background-color: #f5c6cb; /* Light pink hover effect for navigation buttons */
+}

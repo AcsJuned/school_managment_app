@@ -1,0 +1,42 @@
+.admin{
+    background-color: white;
+    max-width: 89rem;
+}
+.vl {
+    border-left: 3px solid rgb(251, 252, 251);
+    height: 4rem;
+    margin-left: 1.5rem;
+  }
+
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.list-unstyled li {
+    border-left: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.list-unstyled li:hover {
+    border-left: 5px solid #6610f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.crdbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+}
+.crdtitle{
+    
+}
+
+

@@ -1,10 +1,10 @@
 
 .hero-container {
-    /* position: absolute; */
+   
     height: 33rem;   
-    margin-top: 0.5rem;
+    margin-top: 3rem;
     margin-bottom: 0;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
   }
 
   .hero-image {

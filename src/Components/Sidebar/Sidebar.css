@@ -1,5 +1,5 @@
 .dashboardsidebar {
-  width: 240px;
+  width: 250px;
   background-image: linear-gradient(
     90deg,
     rgb(102, 52, 230) 0%,
@@ -7,11 +7,72 @@
   );
   color: #ffffff;
   position: relative;
-
   top: 0;
   left: 0;
   transition: transform 0.3s ease;
-  z-index: 1000;
+  z-index: 1000;.dashboardsidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    padding-top: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .dashboardsidebar-header h2 {
+    color: white;
+    padding-left: 1rem;
+  }
+  
+  .dashboardsidebar-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #495057;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-item .arrowicons {
+    margin-left: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item .arrowicons:hover {
+    transform: rotate(180deg);
+  }
+  
+  .submenu {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #495057;
+    margin-top: 5px;
+  }
+  
+  .submenu li {
+    padding: 5px 0;
+  }
+  
+  .submenu li a {
+    color: #adb5bd;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    transition: color 0.3s ease;
+  }
+  
+  .submenu li a:hover {
+    color: white;
+  }
+  
   height: auto;
   min-height: 87vh;
 
@@ -24,15 +85,19 @@
 .menu-item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .icons {
-  margin-right: 15px;
+  /* margin-right: 15px; */
 }
 .arrowicons {
   right: 0;
 }
-
+.menuconatiner{
+  display: flex;
+  justify-content: space-between;
+}
 .dashboardsidebar-header {
   padding: 15px;
   background-color: #100f0f;

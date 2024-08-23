@@ -6,18 +6,17 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="container maincc">
+    <div className="containerm maincc">
       <footer
         className="text-center text-lg-start text-dark"
         style={{ 
-          backgroundColor: '#ECEFF1',
-          borderRadius: '30px 80px',
+          
           overflow: 'hidden'
         }}
       >
         <section className="d-flex justify-content-between p-4" style={{ background: 'linear-gradient(90deg, rgb(102, 52, 230) 0%, rgb(189, 107, 223) 100%)' }}>
           <div className="me-5">
-            <span className="text-white">Connect with our school community:</span>
+            <span className="text-white socialmedia">Connect with our school community:</span>
           </div>
           <div>
             <a href="#" className="text-white me-4">
