@@ -44,10 +44,10 @@ const NavBar = ({ theme, setTheme, toggleSidebar }) => {
         </ul>
         <div className='search-box'>
           <input type="text" placeholder='Search' />
-          <img src={theme === 'light' ? searchW : search} alt='search-icon' />
+          <img src={theme === 'light' ? searchW : search} className='imgs' alt='search-icon' />
         </div>
         <img onClick={toggle_mode} src={theme === 'light' ? night : day} alt="toggle-icon" className='toggle-icon' />
-        <i className="fa-solid fa-user iconimage" onClick={handleIconClick}></i> {/* Attach the click handler */}
+        <i className="fa-solid fa-user iconimage" onClick={handleIconClick}></i> 
       </div>
     </div>
   );

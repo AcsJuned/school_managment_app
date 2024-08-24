@@ -1,0 +1,28 @@
+
+.student-page .card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-page .card-header {
+  background-color: #f7f7f7;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-page .notice {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.student-page .notice:last-child {
+  border-bottom: none;
+}
+.vl {
+  border-left: 3px solid rgb(251, 252, 251);
+  height: 4rem;
+  margin-left: 1.5rem;
+}
+.student-page .card-text{
+  font-size: 0.9rem;
+}

@@ -1,0 +1,22 @@
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-2x {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.scm {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -8,6 +8,7 @@ import LoginForm from "./Components/LoginForm/LoginForm.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import "./App.css";
 import Admin from "./Pages/Admin/Admin.jsx";
+import Student from "./Pages/Student/Student.jsx";
 
 function App() {
   const current_theme = localStorage.getItem("current_theme");
@@ -37,6 +38,7 @@ function App() {
             <Route path="/LoginForm" element={<LoginForm />} />
             <Route path="/" element={<Navigate to="/FeatureSection" />} />
             <Route path="/Admin" element={<Admin/>}/>
+            <Route path="/Student" element ={<Student/>}/>
             {/* You can add more routes specific to logged-in users here */}
           </Routes>
         </>
@@ -53,6 +55,7 @@ function App() {
                 <FeatureSection />
                 <Footer />
                 <Admin/>
+                <Student/>
               </>
             } />
             <Route path="*" element={<Navigate to="/" />} />
